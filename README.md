@@ -20,5 +20,5 @@ Thereafter:
 $ nix-env-install-all.sh
 ```
 
-[bins]: https://github.com/mfine/.nixpkgs/tree/master/bins/files/bin
-[homes]: https://github.com/mfine/.nixpkgs/tree/master/homes/files/homes
+[bins]: bins/files/bin
+[homes]: homes/files/homes
