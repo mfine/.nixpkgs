@@ -1,0 +1,4 @@
+alias e='emacsclient -n'
+alias gitx='gitx --all'
+alias tailf='tail -f'
+alias new='nix-env-install-all.sh'

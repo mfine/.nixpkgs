@@ -1,0 +1,4 @@
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:${PATH}"
+
+HISTSIZE=999999999
+SAVEHIST=999999999

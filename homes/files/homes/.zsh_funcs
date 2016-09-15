@@ -1,0 +1,8 @@
+function keyed () {
+    local key="id_rsa.pub"
+    if [ -n "$2" ]; then
+       key="$2"
+    fi
+    echo "Appending $HOME/.ssh/$key to $1:.ssh/authorized_keys"
+    cat "$HOME/.ssh/$key" | ssh "$1" 'mkdir -p .ssh; cat >> .ssh/authorized_keys'
+}
