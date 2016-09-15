@@ -4,9 +4,9 @@ Controlling your home directory executables and configuration with nix.
 
 ## Usage
 
-Dump your executables in [bins][bins].
+Dump your executables under [bins][bins].
 
-Dump your configuration files and directories to be symlink'd in [homes][homes].
+Dump your configuration files and directories to be symlink'd under [homes][homes].
 
 Then bootstrap:
 
